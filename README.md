@@ -1,13 +1,8 @@
-# 🐉 Misión MongoDB NoSQL - El Cronista de Datos NoSQL
+# Misión MongoDB NoSQL - El Cronista de Datos NoSQL
 
-**Alumna:** Alexandra Tana  
-**Asignatura:** Modelado Avanzado de Bases de Datos  
-**Fecha:** Octubre 2025  
-**Institución:** ESPE
+Alexandra Adriana Tana España  
 
----
-
-## 📖 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto implementa un **Bestiario Digital de Criaturas Fantásticas** utilizando MongoDB como base de datos NoSQL. El objetivo es explorar las ventajas del modelo orientado a documentos frente al modelo relacional tradicional, aprovechando la flexibilidad del esquema para almacenar criaturas con atributos heterogéneos y variables.
 
@@ -26,7 +21,7 @@ mision-mongodb-alexandra-tana/
 
 ---
 
-## 🚀 Requisitos Previos
+##  Requisitos Previos
 
 Para ejecutar este proyecto necesitas:
 
@@ -37,7 +32,7 @@ Para ejecutar este proyecto necesitas:
 
 ---
 
-## ⚙️ Instalación y Configuración
+##  Instalación y Configuración
 
 ### Paso 1: Clonar el repositorio
 ```bash
@@ -55,7 +50,7 @@ cd mision-mongodb-alexandra-tana
 
 ---
 
-## 🎮 Cómo Ejecutar el Script
+##  Cómo Ejecutar el Script
 
 ### Opción 1: Usando VS Code (Recomendado)
 
@@ -80,26 +75,26 @@ load('misiones_mongodb.js')
 
 ---
 
-## 📊 Operaciones Implementadas
+##  Operaciones Implementadas
 
 El script `misiones_mongodb.js` realiza las siguientes operaciones:
 
-### ✅ CREATE (Inserción)
+### CREATE (Inserción)
 - `insertOne()` - Inserta el Dragón de Fuego
 - `insertMany()` - Inserta 4 criaturas adicionales (Fénix, Leviatán, Unicornio, Gólem)
 
-### ✅ READ (Lectura)
+### READ (Lectura)
 - Consulta todas las criaturas del bestiario
 - Filtra criaturas por habitat específico (Bosque Encantado)
 - Encuentra criaturas con nivel de peligro mayor a 8
 
-### ✅ UPDATE (Actualización)
+### UPDATE (Actualización)
 - `updateOne()` - Añade nueva habilidad al Dragón de Fuego
 - `updateMany()` - Incrementa el nivel de peligro de criaturas del Bosque Encantado
 
 ---
 
-## 🐲 Ejemplo de Criatura
+##  Ejemplo de Criatura
 ```javascript
 {
   nombre: "Dragón de Fuego",
@@ -119,7 +114,7 @@ El script `misiones_mongodb.js` realiza las siguientes operaciones:
 
 ---
 
-## 📚 Documentación Adicional
+##  Documentación Adicional
 
 Para entender las decisiones de diseño y el análisis comparativo entre MongoDB y bases de datos relacionales, consulta:
 
@@ -127,7 +122,7 @@ Para entender las decisiones de diseño y el análisis comparativo entre MongoDB
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **MongoDB Atlas** - Base de datos NoSQL en la nube
 - **MongoDB Shell (mongosh)** - Cliente de línea de comandos
@@ -137,7 +132,7 @@ Para entender las decisiones de diseño y el análisis comparativo entre MongoDB
 
 ---
 
-## 📝 Commits Semánticos
+##  Commits Semánticos
 
 Este proyecto sigue la convención de commits semánticos:
 
@@ -148,26 +143,16 @@ Este proyecto sigue la convención de commits semánticos:
 
 ---
 
-## 👩‍💻 Autora
-
-**Alexandra Tana**  
+##  Autora
+**Alexandra Adriana Tana España**  
 Estudiante de Ingeniería en Tecnologías de la Información  
-ESPE - Escuela Politécnica del Ejército
+ESPE - Santo Domingo 
 
 ---
 
-## 📄 Licencia
 
-Este proyecto es parte de una actividad académica para la asignatura de Modelado Avanzado de Bases de Datos.
-
----
-
-## 🔗 Enlaces Útiles
+##  Enlaces usados
 
 - [Documentación oficial de MongoDB](https://docs.mongodb.com/)
 - [MongoDB University (cursos gratuitos)](https://university.mongodb.com/)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-
----
-
-**⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub**
